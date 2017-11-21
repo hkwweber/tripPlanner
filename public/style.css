@@ -9,6 +9,48 @@ body {
 }
 
 #map {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
+}
+
+header{
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100vw;
+  justify-content: space-between;
+
+}
+
+.logo {
+  margin: 2em;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin: 2em;
+}
+
+#side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+
+}
+
+#options {
+  display: flex;
+  background-color: darkolivegreen
+}
+
+#itinerary {
+  display:flex;
+  background-color: salmon
+
 }

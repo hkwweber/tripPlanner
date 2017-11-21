@@ -2,12 +2,42 @@
 <html>
 <head>
   <title>Trip Planner</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="style.css"></link>
   <script src="bundle.js" defer></script>
 </head>
 <body>
-  <div id="map">
+  <header>
+    <div class="logo">Trip Planner!</div>
+    <nav>
+      <div class="nav-item">Home</div>
+      <div class="nav-item">about</div>
+      <div class="nav-item">contact us</div>
+    </nav>
+  </header>
+  <div id="map"></div>
+  <div id="side-bar">
+  <div id="options">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        hotels
+      </button>
+      <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div> -->
+    </div>
+     
+    </div>
+
+  <div id="itinerary">
+    <h1>Hello</h1>
+  </div>
   </div>
 </body>
 </html>
